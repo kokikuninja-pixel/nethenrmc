@@ -164,8 +164,8 @@ export function MotorLanding() {
         {/* Background */}
         <div className="absolute inset-0">
           <Image
-            src="/images/Hero_White_car_driving_on_road_20260919164146.webp"
-            alt="Motor melaju di jalan Semarang dengan pemandangan kota"
+            src="/images/Scooter_parked_for_rental_2K_20260926163425.jpg"
+            alt="Motor rental di Semarang siap pakai"
             fill
             priority
             fetchPriority="high"

@@ -16,8 +16,8 @@ export const nethenBrand: BrandConfig = {
   whatsappNumber: '6282329616166',
   gtmId: 'GTM-KM5GLHDW',
   adsId: 'AW-11380968042',
-  logoPath: '/images/logo.png',
-  ogImagePath: '/images/Hero_White_car_driving_on_road_20260919164146.webp',
+  logoPath: '/images/Nethen_Rental_Motor_logo_design_20260926163534.jpg',
+  ogImagePath: '/images/Scooter_parked_for_rental_2K_20260926163425.jpg',
   social: {
     instagram: 'https://www.instagram.com/inforentalmotorbandung/',
     tiktok: 'https://www.tiktok.com/@nethen.rental',
