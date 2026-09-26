@@ -48,7 +48,7 @@ const motorFaqs = [
   {
     question: 'Apakah diperbolehkan keluar kota?',
     answer:
-      'Boleh. Motor diperbolehkan dipakai di sekitar Jawa Barat. Untuk perjalanan antar kota atau antar pulau, beri tahu tim kami terlebih dahulu agar dapat diatur sesuai ketentuan.',
+      'Boleh. Motor diperbolehkan dipakai di sekitar Jawa Tengah. Untuk perjalanan antar kota atau antar pulau, beri tahu tim kami terlebih dahulu agar dapat diatur sesuai ketentuan.',
   },
   {
     question: 'Bagaimana cara memesan?',
@@ -90,42 +90,42 @@ const keunggulan = [
   },
 ];
 
-const bandungSpots = [
+const semarangSpots = [
   {
-    name: 'Kawah Putih Ciwidey',
-    description: 'Danau kawah biru kehijauan di dataran tinggi Ciwidey, berjarak ±1,5 jam dari pusat kota.',
-    imageUrl: '/images/Kawah_Putih_crater_lake_20260919143051.jpeg',
-    hint: 'kawah putih ciwidey bandung lake',
-  },
-  {
-    name: 'Tangkuban Parahu',
-    description: 'Gunung kembar legendaris di utara Bandung dengan kawah aktif yang menakjubkan.',
-    imageUrl: '/images/Tangkuban_Perahu_volcano_20260919143051.jpeg',
-    hint: 'gunung tangkuban parahu bandung',
-  },
-  {
-    name: 'Jalan Braga',
-    description: 'Jalan ikonik penuh bangunan heritage, kafe, dan galeri seni ala Eropa.',
+    name: 'Kota Lama (Little Netherland)',
+    description: 'Kawasan heritage dengan bangunan kolonial Belanda, museum, dan kafe aesthetic.',
     imageUrl: '/images/Braga_Street_bandung_20260919143051.jpeg',
-    hint: 'jalan braga bandung heritage street',
+    hint: 'kota lama semarang heritage bangunan kolonial',
   },
   {
-    name: 'Dago Pakar',
-    description: 'Hamparan kota Bandung dari ketinggian, favorit menikmati matahari terbenam.',
-    imageUrl: '/images/Dago_Pakar_pine_forest_20260919143051.jpeg',
-    hint: 'dago pakar bandung bukit view kota',
-  },
-  {
-    name: 'Gedung Sate',
-    description: 'Ikon arsitektur Bandung bergaya neo-klasik yang megah dan instagramable.',
+    name: 'Lawang Sewu',
+    description: 'Ikon semarang dengan seribu pintu, sejarah perang, dan arsitektur megah.',
     imageUrl: '/images/Gedung_Sate_bandung_20260919143051.jpeg',
-    hint: 'gedung sate bandung icon',
+    hint: 'lawang sewu semarang iconic building',
   },
   {
-    name: 'Lembang',
-    description: 'Udara sejuk, perkebunan strawberry, dan destinasi wisata keluarga.',
+    name: 'Simpang Lima',
+    description: 'Pusat kota ramai dengan taman, culinary, dan akses mudah ke mana saja.',
+    imageUrl: '/images/Dago_Pakar_pine_forest_20260919143051.jpeg',
+    hint: 'simpang lima semarang city center',
+  },
+  {
+    name: 'Tugu Muda',
+    description: 'Monumen perjuangan dengan taman yang indah di malam hari.',
+    imageUrl: '/images/Tangkuban_Perahu_volcano_20260919143051.jpeg',
+    hint: 'tugu muda semarang monument',
+  },
+  {
+    name: 'Gunung Ungaran',
+    description: 'Pemandangan dataran tinggi, udara sejuk, dan kurva-kurva menantang.',
     imageUrl: '/images/Tea_plantation_lembang_20260919143051.jpeg',
-    hint: 'lembang bandung wisata sejuk',
+    hint: 'gunung ungaran semarang pegunungan',
+  },
+  {
+    name: 'Marina Beach',
+    description: 'Pantai buatan dengan spot foto instagramable dan seafood segar.',
+    imageUrl: '/images/Kawah_Putih_crater_lake_20260919143051.jpeg',
+    hint: 'marina beach semarang pantai',
   },
 ];
 
@@ -154,18 +154,18 @@ const proses = [
 
 export function MotorLanding() {
   const whatsappUrl = getWhatsAppLink(
-    'Halo Nethen, saya ingin sewa motor di Bandung. Mohon info ketersediaan unit.'
+    'Halo Nethen, saya ingin sewa motor di Semarang. Mohon info ketersediaan unit.'
   );
 
   return (
     <>
-      {/* Hero - Bandung Rentals reference */}
+      {/* Hero - Semarang Rentals reference */}
       <section className="relative w-full min-h-[600px] min-h-[88svh] lg:min-h-[92svh] flex flex-col overflow-hidden -mt-16 md:-mt-20">
         {/* Background */}
         <div className="absolute inset-0">
           <Image
             src="/images/Hero_White_car_driving_on_road_20260919164146.webp"
-            alt="Motor melaju di jalan perkebunan teh Bandung dengan pemandangan pegunungan"
+            alt="Motor melaju di jalan Semarang dengan pemandangan kota"
             fill
             priority
             fetchPriority="high"
@@ -182,14 +182,14 @@ export function MotorLanding() {
           <div className="container px-4 md:px-6 lg:px-8 pt-24 md:pt-28 pb-8">
             <div className="max-w-3xl">
               <h1 className="font-display font-bold text-[30px] leading-[1.05] sm:text-4xl md:text-5xl lg:text-[56px] xl:text-[64px] text-white drop-shadow-lg text-balance">
-                Jelajahi Bandung
+                Jelajahi Semarang
                 <br />
                 dengan Bebas, dari
                 <br />
                 Awal hingga Akhir.
               </h1>
               <p className="mt-4 md:mt-6 text-sm sm:text-base text-white/80 max-w-xl leading-relaxed">
-                Temukan keindahan Jawa Barat bersama layanan rental motor terpercaya. Cocok untuk mahasiswa, wisatawan,
+                Temukan keindahan Jawa Tengah bersama layanan rental motor terpercaya. Cocok untuk mahasiswa, wisatawan,
                 hingga komuter harian. Kami pastikan perjalanan nyaman, hemat, dan berkesan.
               </p>
               <div className="mt-6 md:mt-8 flex flex-wrap gap-3">
@@ -296,12 +296,12 @@ export function MotorLanding() {
         </div>
       </section>
 
-      {/* Jelajahi Bandung */}
+      {/* Jelajahi Semarang */}
       <section className="py-16 md:py-24 bg-muted">
         <div className="container px-4">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="font-display text-3xl sm:text-4xl md:text-5xl font-bold">
-              Jelajahi <span className="text-primary">Bandung</span>
+              Jelajahi <span className="text-primary">Semarang</span>
             </h2>
             <p className="mt-4 text-lg text-muted-foreground">
               Sebebas roda kemudi Anda. Beberapa spot favorit yang sayang untuk
@@ -309,7 +309,7 @@ export function MotorLanding() {
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-            {bandungSpots.map((spot) => (
+            {semarangSpots.map((spot) => (
               <Card
                 key={spot.name}
                 className="group overflow-hidden border hover:border-primary/50 transition-all duration-300 hover:-translate-y-1"
@@ -317,7 +317,7 @@ export function MotorLanding() {
                 <div className="relative aspect-[4/3] overflow-hidden bg-muted">
                   <Image
                     src={spot.imageUrl}
-                    alt={`${spot.name} - destinasi wisata Bandung`}
+                    alt={`${spot.name} - destinasi wisata Semarang`}
                     fill
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                     quality={75}
@@ -429,7 +429,7 @@ export function MotorLanding() {
             Kasih tahu kami kebutuhan Anda
           </Badge>
           <h2 className="font-display font-bold text-3xl sm:text-4xl lg:text-5xl text-background leading-tight">
-            Siap Menjelajah Bandung <span className="text-primary">Pakai Motor?</span>
+            Siap Menjelajah Semarang <span className="text-primary">Pakai Motor?</span>
           </h2>
           <p className="mt-4 text-base sm:text-lg text-background/70 max-w-xl mx-auto">
             Pesan sekarang, tim kami merespons cepat via WhatsApp. Unit terbatas, amankan

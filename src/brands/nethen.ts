@@ -1,17 +1,17 @@
 import type { BrandConfig } from './types';
 
 /**
- * Nethen — Rental Motor Bandung
- * Motorcycle rental brand for Bandung area
+ * Nethen — Rental Motor Semarang
+ * Motorcycle rental brand for Semarang area
  */
 export const nethenBrand: BrandConfig = {
   id: 'nethen',
   shortName: 'Nethen',
-  legalName: 'Nethen Rental Motor Bandung',
-  city: 'Bandung',
+  legalName: 'Nethen Rental Motor Semarang',
+  city: 'Semarang',
   tagline: 'Kebebasan Menjelajah Dimulai di Sini.',
   description:
-    'Sewa motor di Bandung dengan mudah dan cepat. Harga terjangkau, unit terawat, layanan terpercaya, siap pakai. Pesan sekarang!',
+    'Sewa motor di Semarang dengan mudah dan cepat. Harga terjangkau, unit terawat, layanan terpercaya, siap pakai. Pesan sekarang!',
   siteUrl: 'https://nethenrental.com',
   whatsappNumber: '6282329616166',
   gtmId: 'GTM-KM5GLHDW',
@@ -32,15 +32,15 @@ export const nethenBrand: BrandConfig = {
     { href: '/snk', label: 'S&K' },
   ],
   seoLocations: [
-    { name: 'Sewa Motor Dago', href: '/sewa-motor-dago' },
-    { name: 'Rental Motor Lembang', href: '/sewa-motor-lembang' },
-    { name: 'Sewa Motor Braga', href: '/sewa-motor-braga' },
-    { name: 'Rental Motor Setiabudi', href: '/sewa-motor-setiabudi' },
-    { name: 'Sewa Motor Cihampelas', href: '/sewa-motor-cihampelas' },
-    { name: 'Rental Motor Gedung Sate', href: '/sewa-motor-gedung-sate' },
-    { name: 'Sewa Motor Buahbatu', href: '/sewa-motor-buahbatu' },
-    { name: 'Rental Motor Stasiun Bandung', href: '/sewa-motor-stasiun-bandung' },
-    { name: 'Sewa Motor Bandara Husein Sastranegara', href: '/sewa-motor-bandara-husein' },
+    { name: 'Sewa Motor Simpang Lima', href: '/sewa-motor-simpang-lima' },
+    { name: 'Rental Motor Lawang Sewu', href: '/sewa-motor-lawang-sewu' },
+    { name: 'Sewa Motor Kota Lama', href: '/sewa-motor-kota-lama' },
+    { name: 'Rental Motor Tugu Muda', href: '/sewa-motor-tugu-muda' },
+    { name: 'Sewa Motor Diponegoro', href: '/sewa-motor-diponegoro' },
+    { name: 'Rental Motor Pandanaran', href: '/sewa-motor-pandanaran' },
+    { name: 'Sewa Motor Stasiun Tawang', href: '/sewa-motor-stasiun-tawang' },
+    { name: 'Rental Motor Bandara Ahmad Yani', href: '/sewa-motor-bandara-ahmad-yani' },
+    { name: 'Sewa Motor Banyumanik', href: '/sewa-motor-banyumanik' },
   ],
   homepageSections: [
     'Header',
@@ -67,13 +67,13 @@ export const nethenBrand: BrandConfig = {
     footnote: 'Respon cepat via WhatsApp · Harga tanya admin',
   },
   business: {
-    streetAddress: 'Jl. Samiaji No.11A, Arjuna, Kec. Cicendo',
-    addressLocality: 'Bandung',
-    addressRegion: 'Jawa Barat',
-    postalCode: '40172',
+    streetAddress: 'Jl. Pandanaran No. 123, Mugassari, Kec. Semarang Selatan',
+    addressLocality: 'Semarang',
+    addressRegion: 'Jawa Tengah',
+    postalCode: '50241',
     addressCountry: 'ID',
-    latitude: -6.892019,
-    longitude: 107.587885,
+    latitude: -6.9667,
+    longitude: 110.4167,
     openingHours: 'Mo-Su 05:00-21:30',
     priceRange: 'Harga mulai Rp 60.000/hari',
   },
