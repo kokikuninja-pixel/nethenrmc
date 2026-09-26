@@ -1,0 +1,93 @@
+import type { BrandConfig } from './types';
+
+/**
+ * Nethen — Rental Motor Bandung
+ * Motorcycle rental brand for Bandung area
+ */
+export const nethenBrand: BrandConfig = {
+  id: 'nethen',
+  shortName: 'Nethen',
+  legalName: 'Nethen Rental Motor Bandung',
+  city: 'Bandung',
+  tagline: 'Kebebasan Menjelajah Dimulai di Sini.',
+  description:
+    'Sewa motor di Bandung dengan mudah dan cepat. Harga terjangkau, unit terawat, layanan terpercaya, siap pakai. Pesan sekarang!',
+  siteUrl: 'https://nethenrental.com',
+  whatsappNumber: '6282329616166',
+  gtmId: 'GTM-KM5GLHDW',
+  adsId: 'AW-11380968042',
+  logoPath: '/images/logo.png',
+  ogImagePath: '/images/Hero_White_car_driving_on_road_20260919164146.webp',
+  social: {
+    instagram: 'https://www.instagram.com/inforentalmotorbandung/',
+    tiktok: 'https://www.tiktok.com/@nethen.rental',
+  },
+  navLinks: [
+    { href: '/armada', label: 'Armada' },
+    { href: '/harga', label: 'Harga' },
+    { href: '/galeri', label: 'Galeri' },
+    { href: '/tentang-kami', label: 'Tentang Kami' },
+    { href: '/lokasi', label: 'Lokasi' },
+    { href: '/faq', label: 'FAQ' },
+    { href: '/snk', label: 'S&K' },
+  ],
+  seoLocations: [
+    { name: 'Sewa Motor Dago', href: '/sewa-motor-dago' },
+    { name: 'Rental Motor Lembang', href: '/sewa-motor-lembang' },
+    { name: 'Sewa Motor Braga', href: '/sewa-motor-braga' },
+    { name: 'Rental Motor Setiabudi', href: '/sewa-motor-setiabudi' },
+    { name: 'Sewa Motor Cihampelas', href: '/sewa-motor-cihampelas' },
+    { name: 'Rental Motor Gedung Sate', href: '/sewa-motor-gedung-sate' },
+    { name: 'Sewa Motor Buahbatu', href: '/sewa-motor-buahbatu' },
+    { name: 'Rental Motor Stasiun Bandung', href: '/sewa-motor-stasiun-bandung' },
+    { name: 'Sewa Motor Bandara Husein Sastranegara', href: '/sewa-motor-bandara-husein' },
+  ],
+  homepageSections: [
+    'Header',
+    'Hero',
+    'Keunggulan',
+    'Armada',
+    'Proses',
+    'FAQ',
+    'OrderForm (#pesan)',
+    'CTA',
+    'Footer',
+    'FloatingWhatsApp',
+    'PromoPopup',
+  ],
+  promoPopup: {
+    enabled: true,
+    delayMs: 12000,
+    eyebrow: 'Unit motor terbatas hari ini',
+    title: 'Pesan sekarang, keburu kehabisan!',
+    description:
+      'Weekend & musim liburan unit cepat ludes. Amankan motor favorit Anda sekarang sebelum penuh.',
+    primaryCta: 'Pesan Sekarang',
+    secondaryCta: 'Chat WhatsApp',
+    footnote: 'Respon cepat via WhatsApp · Harga tanya admin',
+  },
+  business: {
+    streetAddress: 'Jl. Samiaji No.11A, Arjuna, Kec. Cicendo',
+    addressLocality: 'Bandung',
+    addressRegion: 'Jawa Barat',
+    postalCode: '40172',
+    addressCountry: 'ID',
+    latitude: -6.892019,
+    longitude: 107.587885,
+    openingHours: 'Mo-Su 05:00-21:30',
+    priceRange: 'Harga mulai Rp 60.000/hari',
+  },
+  theme: {
+    background: '0 0% 100%',
+    foreground: '222.2 84% 4.9%',
+    primary: '142.1 76.2% 36.3%',
+    primaryForeground: '355.7 100% 97.3%',
+    muted: '210 40% 96.1%',
+    mutedForeground: '215.4 16.3% 46.9%',
+    border: '214.3 31.8% 91.4%',
+    ring: '142.1 76.2% 36.3%',
+    radius: '0.625rem',
+    fontSans: 'Inter',
+    fontDisplay: 'Plus Jakarta Sans',
+  },
+};

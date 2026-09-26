@@ -1,0 +1,7 @@
+# Firebase App Hosting (legacy).
+# This project is prepared for Vercel deployment. This file is retained only
+# as a non-destructive reference to the previous hosting setup.
+# Do not delete the Firebase project or change DNS from this repository mission.
+
+runConfig:
+  maxInstances: 10
