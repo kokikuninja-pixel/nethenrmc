@@ -14,7 +14,7 @@ export function Logo() {
       fetchPriority="high"
       sizes="(max-width: 768px) 48px, 80px"
       quality={85}
-      className="h-12 w-12 object-contain drop-shadow-sm transition-all duration-300 md:h-20 md:w-20"
+      className="h-12 w-12 rounded-full object-cover drop-shadow-sm transition-all duration-300 md:h-20 md:w-20"
     />
   );
 }
