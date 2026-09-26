@@ -94,37 +94,37 @@ const semarangSpots = [
   {
     name: 'Kota Lama (Little Netherland)',
     description: 'Kawasan heritage dengan bangunan kolonial Belanda, museum, dan kafe aesthetic.',
-    imageUrl: '/images/Scooter_parked_for_rental_2K_20260926163425.jpg',
+    imageUrl: '/images/Automatic_scooter_parked_in_city_20260926205443.jpg',
     hint: 'kota lama semarang heritage bangunan kolonial',
   },
   {
     name: 'Lawang Sewu',
     description: 'Ikon semarang dengan seribu pintu, sejarah perang, dan arsitektur megah.',
-    imageUrl: '/images/Scooter_parked_for_rental_2K_20260926163425.jpg',
+    imageUrl: '/images/Scooter_parked_near_monument_20260926205442.jpg',
     hint: 'lawang sewu semarang iconic building',
   },
   {
     name: 'Simpang Lima',
     description: 'Pusat kota ramai dengan taman, culinary, dan akses mudah ke mana saja.',
-    imageUrl: '/images/Scooter_parked_for_rental_2K_20260926163425.jpg',
+    imageUrl: '/images/Automatic_scooter_parked_on_street_20260926205442.jpg',
     hint: 'simpang lima semarang city center',
   },
   {
     name: 'Tugu Muda',
     description: 'Monumen perjuangan dengan taman yang indah di malam hari.',
-    imageUrl: '/images/Scooter_parked_for_rental_2K_20260926163425.jpg',
+    imageUrl: '/images/Automatic_scooter_parked_near_bu_20260926205441.jpg',
     hint: 'tugu muda semarang monument',
   },
   {
     name: 'Gunung Ungaran',
     description: 'Pemandangan dataran tinggi, udara sejuk, dan kurva-kurva menantang.',
-    imageUrl: '/images/Scooter_parked_for_rental_2K_20260926163425.jpg',
+    imageUrl: '/images/Scooter_parked_on_winding_road_20260926205442.jpg',
     hint: 'gunung ungaran semarang pegunungan',
   },
   {
     name: 'Marina Beach',
     description: 'Pantai buatan dengan spot foto instagramable dan seafood segar.',
-    imageUrl: '/images/Scooter_parked_for_rental_2K_20260926163425.jpg',
+    imageUrl: '/images/Automatic_scooter_parked_at_beach_20260926205441.jpg',
     hint: 'marina beach semarang pantai',
   },
 ];
