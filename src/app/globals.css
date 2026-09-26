@@ -4,26 +4,26 @@
 
 @layer base {
   :root {
+    /* These will be overridden by brand theme in layout.tsx */
     --background: 0 0% 100%;
-    --foreground: 213 32% 10%;
+    --foreground: 222.2 84% 4.9%;
     --card: 0 0% 100%;
-    --card-foreground: 213 32% 10%;
+    --card-foreground: 222.2 84% 4.9%;
     --popover: 0 0% 100%;
-    --popover-foreground: 213 32% 10%;
-    --primary: 224 76% 55%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 142 76% 36%;
     --primary-foreground: 0 0% 100%;
-    --secondary: 43 100% 54%;
-    --secondary-foreground: 40 40% 8%;
-    --muted: 220 22% 96%;
-    --muted-foreground: 220 12% 44%;
-    --accent: 43 100% 54%;
-    --accent-foreground: 40 40% 8%;
+    --secondary: 142 20% 95%;
+    --secondary-foreground: 142 15% 45%;
+    --muted: 142 20% 95%;
+    --muted-foreground: 142 15% 45%;
+    --accent: 142 20% 95%;
+    --accent-foreground: 142 15% 45%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
-    --border: 220 22% 90%;
-    --input: 220 22% 90%;
-    --ring: 224 76% 55%;
-    --gold: 43 100% 54%;
+    --border: 142 20% 88%;
+    --input: 142 20% 88%;
+    --ring: 142 76% 36%;
     --radius: 0.625rem;
     
     --ease-expo-out: cubic-bezier(0.16, 1, 0.3, 1);
@@ -97,10 +97,10 @@
 
 @keyframes pulse-glow {
   0%, 100% {
-    box-shadow: 0 0 0 0 rgba(255, 186, 18, 0.4);
+    box-shadow: 0 0 0 0 hsl(var(--primary) / 0.4);
   }
   50% {
-    box-shadow: 0 0 20px 10px rgba(255, 186, 18, 0.2);
+    box-shadow: 0 0 20px 10px hsl(var(--primary) / 0.2);
   }
 }
 
@@ -150,7 +150,7 @@
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: hsl(44, 100%, 45%);
+  background: hsl(var(--primary) / 0.8);
 }
 
 /* Reduced motion support */
@@ -175,13 +175,13 @@ html {
 
 /* Selection color */
 ::selection {
-  background-color: rgba(255, 186, 18, 0.3);
-  color: #151c0d;
+  background-color: hsl(var(--primary) / 0.3);
+  color: hsl(var(--primary-foreground));
 }
 
 /* Focus visible styles */
 *:focus-visible {
-  outline: 2px solid #ffba12;
+  outline: 2px solid hsl(var(--primary));
   outline-offset: 2px;
 }
 
@@ -221,7 +221,7 @@ html {
 
 /* Text gradient */
 .text-gradient {
-  background: linear-gradient(135deg, #ffba12 0%, #f59e0b 100%);
+  background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--primary) / 0.8) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -246,7 +246,7 @@ html {
   left: 50%;
   width: 0;
   height: 2px;
-  background-color: #ffba12;
+  background-color: hsl(var(--primary));
   transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
   transform: translateX(-50%);
 }

@@ -23,14 +23,31 @@ const plusJakarta = Plus_Jakarta_Sans({
 
 const brand = getBrand();
 const siteUrl = getSiteUrl();
+
+const defaultTitle = `${brand.shortName} - Rental Motor ${brand.city} | Sewa Motor Cepat & Aman`;
+
+// Build theme style from brand config
+const themeStyle = {
+  '--background': brand.theme.background,
+  '--foreground': brand.theme.foreground,
+  '--primary': brand.theme.primary,
+  '--primary-foreground': brand.theme.primaryForeground,
+  '--muted': brand.theme.muted,
+  '--muted-foreground': brand.theme.mutedForeground,
+  '--border': brand.theme.border,
+  '--ring': brand.theme.ring,
+  '--radius': brand.theme.radius,
+  '--font-sans': brand.theme.fontSans,
+  '--font-display': brand.theme.fontDisplay,
+  '--theme-color': `hsl(${brand.theme.primary})`,
+} as React.CSSProperties;
+
 export const viewport = {
   width: 'device-width',
   initialScale: 1,
   maximumScale: 5,
-  themeColor: '#2563EB',
+  themeColor: `hsl(${brand.theme.primary})`,
 };
-
-const defaultTitle = `${brand.shortName} - Rental Mobil ${brand.city} | Sewa Mobil Cepat & Aman`;
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -38,10 +55,10 @@ export const metadata: Metadata = {
   description: brand.description,
   applicationName: brand.legalName,
   keywords: [
-    `sewa mobil ${brand.city}`,
-    `rental mobil ${brand.city}`,
-    'sewa mobil bandung',
-    'rental mobil murah bandung',
+    `sewa motor ${brand.city}`,
+    `rental motor ${brand.city}`,
+    'sewa motor semarang',
+    'rental motor murah semarang',
     brand.shortName,
   ],
   authors: [{ name: brand.legalName }],
@@ -94,7 +111,7 @@ export default function RootLayout({
   const gtmId = getGtmId();
 
   return (
-    <html lang="id" className={cn('!scroll-smooth', inter.variable, plusJakarta.variable)}>
+    <html lang="id" className={cn('!scroll-smooth', inter.variable, plusJakarta.variable)} style={themeStyle}>
       <body className={cn('font-sans antialiased', inter.className)}>
         <JsonLd data={buildLocalBusinessJsonLd()} />
         <JsonLd data={buildWebsiteJsonLd()} />
