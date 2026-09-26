@@ -94,37 +94,37 @@ const semarangSpots = [
   {
     name: 'Kota Lama (Little Netherland)',
     description: 'Kawasan heritage dengan bangunan kolonial Belanda, museum, dan kafe aesthetic.',
-    imageUrl: '/images/Braga_Street_bandung_20260919143051.jpeg',
+    imageUrl: '/images/Scooter_parked_for_rental_2K_20260926163425.jpg',
     hint: 'kota lama semarang heritage bangunan kolonial',
   },
   {
     name: 'Lawang Sewu',
     description: 'Ikon semarang dengan seribu pintu, sejarah perang, dan arsitektur megah.',
-    imageUrl: '/images/Gedung_Sate_bandung_20260919143051.jpeg',
+    imageUrl: '/images/Scooter_parked_for_rental_2K_20260926163425.jpg',
     hint: 'lawang sewu semarang iconic building',
   },
   {
     name: 'Simpang Lima',
     description: 'Pusat kota ramai dengan taman, culinary, dan akses mudah ke mana saja.',
-    imageUrl: '/images/Dago_Pakar_pine_forest_20260919143051.jpeg',
+    imageUrl: '/images/Scooter_parked_for_rental_2K_20260926163425.jpg',
     hint: 'simpang lima semarang city center',
   },
   {
     name: 'Tugu Muda',
     description: 'Monumen perjuangan dengan taman yang indah di malam hari.',
-    imageUrl: '/images/Tangkuban_Perahu_volcano_20260919143051.jpeg',
+    imageUrl: '/images/Scooter_parked_for_rental_2K_20260926163425.jpg',
     hint: 'tugu muda semarang monument',
   },
   {
     name: 'Gunung Ungaran',
     description: 'Pemandangan dataran tinggi, udara sejuk, dan kurva-kurva menantang.',
-    imageUrl: '/images/Tea_plantation_lembang_20260919143051.jpeg',
+    imageUrl: '/images/Scooter_parked_for_rental_2K_20260926163425.jpg',
     hint: 'gunung ungaran semarang pegunungan',
   },
   {
     name: 'Marina Beach',
     description: 'Pantai buatan dengan spot foto instagramable dan seafood segar.',
-    imageUrl: '/images/Kawah_Putih_crater_lake_20260919143051.jpeg',
+    imageUrl: '/images/Scooter_parked_for_rental_2K_20260926163425.jpg',
     hint: 'marina beach semarang pantai',
   },
 ];
